@@ -1,0 +1,34 @@
+{
+	"name": "ami-praha/laravel-db-queue-monitor",
+	"description": "Laravel DB Queue Monitoring",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "romanzipp",
+			"email": "ich@ich.wtf",
+			"homepage": "https://ich.wtf"
+		},
+		{
+			"name": "AMI",
+			"email": "ami@ami.cz",
+			"homepage": "https://www.ami.cz"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"laravel/framework": "^5.3|^6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"AmiPraha\\LaravelDbQueueMonitor\\": "/src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"AmiPraha\\LaravelDbQueueMonitor\\Providers\\LaravelDbQueueMonitorProvider"
+			]
+		}
+	}
+}
