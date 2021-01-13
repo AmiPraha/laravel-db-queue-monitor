@@ -17,7 +17,7 @@ composer require ami-praha/laravel-db-queue-monitor
 Or add `ami-praha/laravel-db-queue-monitor` to your `composer.json`
 
 ```
-"ami-praha/laravel-db-queue-monitor": "1.1.0"
+"ami-praha/laravel-db-queue-monitor": "^1.0.12"
 ```
 
 Run composer update to pull the latest version.
