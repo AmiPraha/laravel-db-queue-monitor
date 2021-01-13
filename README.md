@@ -11,10 +11,10 @@ This package offers monitoring like [Laravel Horizon](https://laravel.com/docs/h
 
 ## Installation
 ```
-composer require AmiPraha/laravel-db-queue-monitor
+composer require ami-praha/laravel-db-queue-monitor
 ```
 
-Or add `AmiPraha/laravel-db-queue-monitor` to your `composer.json`
+Or add `ami-praha/laravel-db-queue-monitor` to your `composer.json`
 
 ```
 "AmiPraha/laravel-db-queue-monitor": "1.1.0"
